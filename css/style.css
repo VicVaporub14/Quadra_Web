@@ -60,6 +60,8 @@ h3 {
     border-bottom-color: rgb(0, 84, 209);
 }
 
+/* Hero */
+
 .hero {
     background-image: url('../imgs/heros/hero-2.jpg');
     background-size: cover;
@@ -131,6 +133,7 @@ h3 {
 }
 
 
+/* botones */
 
 .btn-primary {
     background-color: rgb(54, 132, 250);
@@ -149,7 +152,7 @@ h3 {
 }
 
 
-
+/* Servicios */
 
 .servicios {
     background-color: rgb(231, 246, 253);
@@ -214,10 +217,74 @@ h3 {
 /* Beneficios */
 
 .beneficios {
-    height: 700px;
+    padding: 70px 0 ;
 }
 
 
+.contenedor h2 {
+    margin: 0 auto;
+    width: 900px;
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.columnas {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.caract-benef {
+    width: 500px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.caract-benef p {
+    margin-top: 15px;
+    margin-bottom: 0;
+    margin-left: 70px;
+    line-height: 25px;
+}
+
+.icono-h3 {
+    display: flex;
+    gap: 30px;
+}
+
+.icono-h3 h3 {
+    margin: 0;
+    align-content: center;
+}
+
+
+
+/* Llamada a la accion */
+
 .accion {
-    height: 700px;
+    background-color: rgb(231, 246, 253);
+    padding: 60px 0;
+}
+
+.contenido-accion {
+    background-color: white;
+    padding: 40px 30px ;
+    text-align: center;
+}
+
+
+/* Footer */
+footer {
+    height: 500px;
+    background-color: rgb(29, 29, 29);
+}
+
+/* final */
+.copyright {
+    height: 60px;
+    background-color: black;
 }
