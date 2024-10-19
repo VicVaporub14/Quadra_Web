@@ -8,7 +8,15 @@ html {
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(39, 39, 39);
 }
+
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
 
 .bar-sup {
     height: 25px;
@@ -140,3 +148,76 @@ body {
     cursor: pointer;
 }
 
+
+
+
+.servicios {
+    background-color: rgb(231, 246, 253);
+}
+
+.contenedor {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.contenido-servicios {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.contenido-servicios h2 {
+    margin: 0 auto;
+    width: 900px;
+    padding: 40px 0;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+
+.cards-servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 80px;
+
+    
+    
+}
+
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    width: 350px;
+    height: 350px;
+    align-content: center;
+    padding: 30px 40px;
+
+    -webkit-box-shadow: 0px 0px 25px 2px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 25px 2px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 25px 2px rgba(0,0,0,0.4);
+}
+
+.card img {
+    margin-bottom: 30px;
+}
+
+.card p {
+    line-height: 25px;
+    margin: 30px 30px ;
+    margin-bottom: 0;
+}
+
+
+
+/* Beneficios */
+
+.beneficios {
+    height: 700px;
+}
+
+
+.accion {
+    height: 700px;
+}
