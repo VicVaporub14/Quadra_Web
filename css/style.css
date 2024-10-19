@@ -1,0 +1,142 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bar-sup {
+    height: 25px;
+    background-color: rgb(29, 29, 29);
+}
+
+.nav {
+    height: 100px;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav a img{
+    width: 265px; 
+    max-width: 100%;
+    height: auto;
+}
+
+.bar-nav {
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.bar-nav a {
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 750;
+    padding: 15px 30px;
+    border-bottom: 2.5px solid transparent; /* Borde transparente inicialmente */
+    transition: border-color 0.3s ease;
+}
+
+.bar-nav a:hover {
+    color: rgb(0, 84, 209);
+    border-bottom-color: rgb(0, 84, 209);
+}
+
+.hero {
+    background-image: url('../imgs/heros/hero-2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 650px;
+}
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.6);
+    
+}
+
+.contenido-hero {
+    width: 500px;
+    text-align: center;
+    color: white;
+    font-size: large;
+    margin: 0 40px;
+    
+}
+
+/* Llegando a los 900px, aumenta 200px a la derecha de margen */
+
+@media (min-width: 900px) {
+
+    .overlay {
+        justify-content: flex-end;
+        
+    }
+
+    .contenido-hero {
+        margin-right: 200px;
+    }
+}
+
+/* Llegando a los 1700px, aumenta 400px a la derecha de margen */
+
+@media (min-width: 1700px) {
+
+    .overlay {
+        justify-content: flex-end;
+        
+    }
+
+    .contenido-hero {
+        margin-right: 400px;
+    }
+}
+
+
+
+
+.contenido-hero h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.contenido-hero p {
+    line-height: 30px;
+    margin: 40px 0;
+}
+
+
+
+.btn-primary {
+    background-color: rgb(54, 132, 250);
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px 25px;
+    border-style: none;
+    border-radius: 5px;
+    
+}
+
+.btn-primary:hover {
+    background-color: rgb(0, 84, 209);
+    cursor: pointer;
+}
+
