@@ -358,3 +358,19 @@ footer {
 .copyright p {
     align-content: center;
 }
+
+.copyright div {
+    align-content: center;
+}
+
+
+.redes-sociales-footer {
+    height: 50px;
+    display: flex;
+    
+    gap: 20px;
+}
+
+.redes-sociales-footer a {
+    align-content: center;
+}
